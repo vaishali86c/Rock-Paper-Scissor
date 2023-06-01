@@ -19,6 +19,8 @@
     border-width: 7px;
     font-weight: bolder;
     margin-right: 5%;
+    -webkit-box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, -15px -18px 50px -15px rgb(136, 101, 101); 
+    box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, -15px -18px 50px -15px rgb(136, 101, 101);
 }
 #paper {
     background-color: rgb(158, 119, 119);
@@ -29,6 +31,8 @@
     border-width: 7px;
     font-weight: bolder;
     margin-right: 5%;
+    -webkit-box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, -15px -18px 50px -15px rgb(136, 101, 101); 
+    box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, -15px -18px 50px -15px rgb(136, 101, 101);
 }
 #scissor {
     background-color: rgb(158, 119, 119);
@@ -38,6 +42,8 @@
     border-radius: 4cm;
     border-width: 7px;
     font-weight: bolder;
+    -webkit-box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, -15px -18px 50px -15px rgb(136, 101, 101); 
+    box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, -15px -18px 50px -15px rgb(136, 101, 101);
 }
 
 #cc {
@@ -81,7 +87,7 @@
     flex: auto;
     flex-direction: column;
     padding-bottom: 7%;
-    
+ 
 }
 
 #result {
@@ -90,5 +96,8 @@
     font-weight: bold; 
     font-size: 4ch;
     color: rgb(54, 5, 5);
-    
+    -webkit-box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, -15px -18px 50px -15px rgb(136, 101, 101); 
+    box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, -15px -18px 50px -15px rgb(136, 101, 101);
+    text-transform: capitalize;
+    word-spacing: 3.6px;
 }
