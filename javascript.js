@@ -15,10 +15,8 @@ function getComputerChoice() {
         return "scissor";
     }
 }
-
 //let choice = getComputerChoice();
 //console.log(choice);
-
 function playerSelection() {
 
     let Rock;
@@ -32,7 +30,6 @@ function playerSelection() {
     return ans;
 
 }
-
 let playerScore=0;
 let computerScore=0;
 
@@ -124,39 +121,38 @@ scissorsButton.addEventListener("click", function () {
     handleClick('scissor')
 });
 
+// function game() {
 
-// // function game() {
+//      let computercount = 0;
+//      let playercount = 0;
+//     //1.call for loop 5 times
+//    // let ans = playRound();
 
-// //      let computercount = 0;
-// //      let playercount = 0;
-// //     //1.call for loop 5 times
-// //    // let ans = playRound();
+//         for (let i = 1;i <= 5;i++) {
+//         let result = playRound(playerSelection(),getComputerChoice());
+//         //let result = handleClick();
+//         //console.log(result);
 
-// //         for (let i = 1;i <= 5;i++) {
-// //         let result = playRound(playerSelection(),getComputerChoice());
-// //         //let result = handleClick();
-// //         //console.log(result);
-
-// //         if (result.slice(0,10) == "You lose !") {
-// //             computercount++;
-// //         }
-// //         if (result.slice(0,10) == "You win  !") {
-// //             playercount++;
-// //         }
-// //         if (result == "Tie"){
-// //             playercount++;
-// //             computercount++;
-// //         }
+//         if (result.slice(0,10) == "You lose !") {
+//             computercount++;
+//         }
+//         if (result.slice(0,10) == "You win  !") {
+//             playercount++;
+//         }
+//         if (result == "Tie"){
+//             playercount++;
+//             computercount++;
+//         }
         
-// //     }
+//     }
 
-// //     if (playercount === 5) {
-// //         console.log("player win with score " + playercount);
+//     if (playercount === 5) {
+//         console.log("player win with score " + playercount);
 
-// //     }else if(computercount === 5) {
-// //         console.log("computer win with score " + computercount);
-// //     }else {
-// //         console.log("Tie with equal score ");
-// //     }
-// // }
-// // game();
+//     }else if(computercount === 5) {
+//         console.log("computer win with score " + computercount);
+//     }else {
+//         console.log("Tie with equal score ");
+//     }
+// }
+// game();
